@@ -11,14 +11,20 @@
 
 #import "RCTRootView.h"
 
-#import <BaiduMapAPI/BMapKit.h>
-
-#import <BaiduMapAPI/BMKMapView.h>
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	/* BAIDU MAP START */
+	
+	_mapManager = [[BMKMapManager alloc] init];
+	BOOL ret = [_mapManager start:@"pFqXgdxAcIOUXf2cID786fvp" generalDelegate:nil];
+	if (!ret) {
+		NSLog(@"manager start failed!");
+	}
+	
+	/* BAIDU MAP END
+	
   NSURL *jsCodeLocation;
 
   /**
