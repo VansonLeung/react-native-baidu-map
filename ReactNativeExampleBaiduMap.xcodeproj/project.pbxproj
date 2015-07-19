@@ -25,6 +25,14 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		D23208981B5B629800F5EF79 /* BaiduMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D23208971B5B629800F5EF79 /* BaiduMap.m */; };
 		D232089B1B5B62A800F5EF79 /* BaiduMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D232089A1B5B62A800F5EF79 /* BaiduMapManager.m */; };
+		D23208A71B5B67BD00F5EF79 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23208A61B5B67BD00F5EF79 /* BaiduMapAPI.framework */; };
+		D23208A91B5B67D500F5EF79 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23208A81B5B67D500F5EF79 /* CoreLocation.framework */; };
+		D23208AB1B5B67DE00F5EF79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23208AA1B5B67DE00F5EF79 /* QuartzCore.framework */; };
+		D23208AD1B5B67E700F5EF79 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23208AC1B5B67E700F5EF79 /* OpenGLES.framework */; };
+		D23208AF1B5B67F000F5EF79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23208AE1B5B67F000F5EF79 /* SystemConfiguration.framework */; };
+		D23208B11B5B67F600F5EF79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23208B01B5B67F600F5EF79 /* CoreGraphics.framework */; };
+		D23208B31B5B67FD00F5EF79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23208B21B5B67FD00F5EF79 /* Security.framework */; };
+		D23208B51B5B683100F5EF79 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D23208B41B5B683100F5EF79 /* mapapi.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +141,14 @@
 		D23208971B5B629800F5EF79 /* BaiduMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMap.m; sourceTree = "<group>"; };
 		D23208991B5B62A800F5EF79 /* BaiduMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMapManager.h; sourceTree = "<group>"; };
 		D232089A1B5B62A800F5EF79 /* BaiduMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMapManager.m; sourceTree = "<group>"; };
+		D23208A61B5B67BD00F5EF79 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
+		D23208A81B5B67D500F5EF79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D23208AA1B5B67DE00F5EF79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D23208AC1B5B67E700F5EF79 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D23208AE1B5B67F000F5EF79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D23208B01B5B67F600F5EF79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D23208B21B5B67FD00F5EF79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D23208B41B5B683100F5EF79 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +163,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23208B31B5B67FD00F5EF79 /* Security.framework in Frameworks */,
+				D23208B11B5B67F600F5EF79 /* CoreGraphics.framework in Frameworks */,
+				D23208AF1B5B67F000F5EF79 /* SystemConfiguration.framework in Frameworks */,
+				D23208AD1B5B67E700F5EF79 /* OpenGLES.framework in Frameworks */,
+				D23208AB1B5B67DE00F5EF79 /* QuartzCore.framework in Frameworks */,
+				D23208A91B5B67D500F5EF79 /* CoreLocation.framework in Frameworks */,
+				D23208A71B5B67BD00F5EF79 /* BaiduMapAPI.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -295,6 +318,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D23208B41B5B683100F5EF79 /* mapapi.bundle */,
+				D23208B21B5B67FD00F5EF79 /* Security.framework */,
+				D23208B01B5B67F600F5EF79 /* CoreGraphics.framework */,
+				D23208AE1B5B67F000F5EF79 /* SystemConfiguration.framework */,
+				D23208AC1B5B67E700F5EF79 /* OpenGLES.framework */,
+				D23208AA1B5B67DE00F5EF79 /* QuartzCore.framework */,
+				D23208A81B5B67D500F5EF79 /* CoreLocation.framework */,
+				D23208A61B5B67BD00F5EF79 /* BaiduMapAPI.framework */,
 				13B07FAE1A68108700A75B9A /* ReactNativeExampleBaiduMap */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeExampleBaiduMapTests */,
@@ -533,6 +564,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
+				D23208B51B5B683100F5EF79 /* mapapi.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -624,6 +656,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -640,6 +676,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
