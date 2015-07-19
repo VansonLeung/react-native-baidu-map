@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BaiduMapAPI/BMKMapView.h>
 
-@interface BaiduMap : UIView
+@interface BaiduMap : BMKMapView
 
 @end
