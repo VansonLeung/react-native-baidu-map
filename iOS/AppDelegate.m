@@ -23,7 +23,7 @@
 		NSLog(@"manager start failed!");
 	}
 	
-	/* BAIDU MAP END
+	/* BAIDU MAP END */
 	
   NSURL *jsCodeLocation;
 
