@@ -15,10 +15,9 @@
 @interface BaiduMap : BMKMapView <BMKMapViewDelegate>
 {
 	RCTEventDispatcher * eventDispatcher;
-	CLLocationCoordinate2D coor;
 }
 @property (nonatomic) BOOL isRed;
 
 -(int)addPointAnnotation:(CLLocationDegrees)latitude longitude:(CLLocationDegrees)longitude title:(NSString*)title;
-
+-(void)centerToCoor:(CLLocationDegrees)latitude longitude:(CLLocationDegrees)longitude;
 @end

@@ -1,16 +1,19 @@
 {
-  "name": "ReactNativeExampleBaiduMap",
-  "keywords": [
-    "react-component",
-    "react-native",
-    "ios"
-  ],
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+  "name": "react-native-baidu-map",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/VansonLeung/react-native-baidu-map.git"
   },
-  "dependencies": {
-    "react-native": "^0.7.1"
-  }
+  "version": "0.1.0",
+  "description": "React Native Baidu Map",
+  "author": "Vanson Leung <vanson@vanportdev.com> (http://www.vanportdev.com)",
+  "nativePackage": true,
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "map",
+    "baidumap",
+    "mapview"
+  ]
 }

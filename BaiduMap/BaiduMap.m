@@ -14,19 +14,17 @@
 -(int)addPointAnnotation:(CLLocationDegrees)latitude longitude:(CLLocationDegrees)longitude title:(NSString*)title
 {
 	BMKPointAnnotation* annotation = [[BMKPointAnnotation alloc]init];
-	coor.latitude = latitude;
-	coor.longitude = longitude;
-	annotation.coordinate = coor;
+  CLLocationCoordinate2D _coor = CLLocationCoordinate2DMake(latitude, longitude);
+	annotation.coordinate = _coor;
 	annotation.title = title;
 	[self addAnnotation:annotation];
-	[self setCenterCoordinate:coor];
-	[self setZoomLevel:17];
 	return 0;
 }
 
--(void)centerToCoor
+-(void)centerToCoor:(CLLocationDegrees)latitude longitude:(CLLocationDegrees)longitude
 {
-	[self setCenterCoordinate:coor];
+  CLLocationCoordinate2D _coor = CLLocationCoordinate2DMake(latitude, longitude);
+	[self setCenterCoordinate: _coor];
 }
 
 
