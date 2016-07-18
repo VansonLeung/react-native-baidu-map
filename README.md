@@ -1,4 +1,4 @@
-# react-native-baidu-map
+# react-native-baidu-map (IN MAINTENANCE, NOT WORKING)
 My first React Native attempt to implement custom view. This time, including Baidu Map SDK.  Feel free to contact us: http://www.vanportdev.com
 
 Please inspect our example code.
